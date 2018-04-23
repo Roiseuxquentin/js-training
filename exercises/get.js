@@ -1,7 +1,7 @@
 'use strict'
 
 /*
- * Create a `get` function that takes a key and return the corresponding value
+ * Create a get function that takes a key and return the corresponding value
  * in the sourceObject
  *
  * @notions Functions, Data-Structures, Get
@@ -13,6 +13,11 @@ const sourceObject = {
   bool: true,
   str: 'some text',
   log: console.log,
+}
+
+const get = (value) => {
+	const X = sourceObject[value]
+	return X
 }
 
 // Your code :

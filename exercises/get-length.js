@@ -1,14 +1,14 @@
 'use strict'
 
 /*
- * Create a `getLength` function that takes an array or a string
- * and return its length.
+ * Create a getLength function that takes an array or a string
+ * and return it's length.
  *
  * @notions Data-Structures, Get
  */
 
 // Your code :
-
+const getLength = (x) => {return x.length}
 //* Begin of tests
 const assert = require('assert')
 

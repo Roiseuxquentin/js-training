@@ -1,12 +1,19 @@
 'use strict'
 
 /*
- * Create a `capitalize` function that takes a string
- * and transforms it to upper case only for the first letter,
- * and in lowercase for the rest of the string
+ * Create a function `capitalize` takes a string
+ * and transform to upper case only the first letter
  *
  */
 
+const capitalize = str => {
+
+	let str2 = str.split('')
+	const strFirst = str2.shift().toUpperCase()
+	const str3 = strFirst + str2.join('').toLowerCase()
+	return (str3)
+
+}
 
 //* Begin of tests
 const assert = require('assert')
