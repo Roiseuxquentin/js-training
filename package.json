@@ -209,20 +209,5 @@
   ],
   "scripts": {
     "update": "git reset && git stash && git pull https://github.com/nan-ci/js.git master && git stash pop",
-    "test": "./tester",
-    "lint:js": "standard"
-  },
-  "dependencies": {
-    "express": "^4.16.3",
-    "htmllint-cli": "0.0.7",
-    "lint:css": "stylelint 'client/style/**/*.css'",
-    "lint:js": "standard | snazzy",
-    "snazzy": "^7.1.1",
-    "standard": "^11.0.1",
-    "test": "echo 'no tests'",
-    "lint": "npm run lint:js && npm run lint:css && npm run lint:html",
-    "lint:js": "standard | snazzy",
-    "lint:css": "stylelint 'client/style/**/*.css'",
-    "lint:html": "htmllint 'client/**/*.html'"
-  }
+    "test": "./tester"
 }
