@@ -166,5 +166,6 @@ We greatly recommand you to add your own tests to this list
 for `./tester` to work properly.*
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-![Travis master](https://img.shields.io/travis/Roiseuxquentin/js-training.svg)](https://travis-ci.org/Roiseuxquentin/js-training)
+
+[![Travis master](https://img.shields.io/travis/Roiseuxquentin/js-training.svg)](https://travis-ci.org/Roiseuxquentin/js-training)
 [![Travis dev](https://img.shields.io/travis/Roiseuxquentin/js-training/dev.svg)](https://travis-ci.org/Roiseuxquentin/js-training/branches)
