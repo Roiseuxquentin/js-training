@@ -11,65 +11,58 @@
 // Your code :
 
 
-const multiply = (nb1 , nb2) => {
+const multiply = (nb1, nb2) => {
 
-let j = 0
+  let j = 0
 
-	if (nb1 === 0 || nb2 === 0)
-		return j
-	else if (nb1 < 0 && nb2 > 0)
-	{
-		return j = (- neg(nb1 , nb2))
-	}
-	else if (nb2 < 0 && nb1 > 0)
-	{
-		return j = (- neg(nb1 ,nb2))
-	}
-	else if (nb2 < 0 && nb1 < 0) {
-		const nb1neg = nb1 - nb1 - nb1
-		const nb2neg = nb2 - nb2 - nb2
-		return neg(nb1neg,nb2neg)
-	}
-	else	
-		return neg(nb1,nb2)
+  if (nb1 === 0 || nb2 === 0)
+    return j
+  else if (nb1 < 0 && nb2 > 0) {
+    return j = (- neg(nb1, nb2))
+  }
+  else if (nb2 < 0 && nb1 > 0) {
+    return j = (- neg(nb1, nb2))
+  }
+  else if (nb2 < 0 && nb1 < 0) {
+    const nb1neg = nb1 - nb1 - nb1
+    const nb2neg = nb2 - nb2 - nb2
+    return neg(nb1neg, nb2neg)
+  }
+  else
+    return neg(nb1, nb2)
 
 
 }
 
-const neg = (nb1,nb2) => {
+const neg = (nb1, nb2) => {
 
 
-let j = 0
-let i = 0
+  let j = 0
+  let i = 0
 
-	if (nb2 < 0 )
-	{
-		while (i < nb1)
-		{
-				j = j + nb2 
-				i++
-		}
+  if (nb2 < 0) {
+    while (i < nb1) {
+      j = j + nb2
+      i++
+    }
 
-			return (j = j - j - j)
-	}
-	else if (nb1 < 0 )
-	{
-		while (i < nb2)
-		{
-				j = j + nb1 
-				i++
-		}
+    return (j = j - j - j)
+  }
+  else if (nb1 < 0) {
+    while (i < nb2) {
+      j = j + nb1
+      i++
+    }
 
-			return (j = j - j - j)
-	}
-	else{
-		while (i < nb2)
-		{
-				j = j + nb1 
-				i++
-		}		
-			return j
-		}
+    return (j = j - j - j)
+  }
+  else {
+    while (i < nb2) {
+      j = j + nb1
+      i++
+    }
+    return j
+  }
 }
 
 

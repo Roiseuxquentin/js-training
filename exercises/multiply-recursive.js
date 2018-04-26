@@ -17,12 +17,12 @@ let result = 0
 
 const multiply = (nb1, nb2) => {
   if (i === nb2 || nb1 === 0 || nb2 === 0) {
-    console.log(result)
+    //console.log(result)
     return result
-  } 
-  
+  }
+
   result = result + nb1
-  console.log('r', result)
+  //console.log('r', result)
   i = i + 1
   // const res = multiply(nb1, nb2)
   return multiply(nb1, nb2)
@@ -32,8 +32,8 @@ const multiply = (nb1, nb2) => {
 
 // console.log("c le premier passage de i =" , i)
 // console.log("premier de result",result)
-const res = multiply(10, 1)
-console.log('result:', res)
+//const res = multiply(10, 1)
+//console.log('result:', res)
 //console.log("2eme i :", i)
 //console.log("second result",result)
 
