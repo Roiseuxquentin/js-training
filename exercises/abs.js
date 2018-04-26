@@ -13,7 +13,7 @@
 
 const abs = (num) => {
   const nbabs = -num
-  return (num > 0 ? num : nbabs)
+  return (num >= 0 ? num : nbabs)
 }
 
 //* Begin of tests
