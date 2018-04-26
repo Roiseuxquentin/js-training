@@ -8,20 +8,18 @@
  *
  */
 
+// Your code :
 
 const cutFirst = (str) => {
-	
-	return str.slice(0,-2)
-	
+  return str.slice(0, -2)
 }
 
 const cutLast = (str) => {
-	return str.slice(2)
+  return str.slice(2)
 }
 
-const cutFirstLast = (str) =>{
-	return str.slice(2,-2)
-
+const cutFirstLast = (str) => {
+  return str.slice(2, -2)
 }
 
 //* Begin of tests
