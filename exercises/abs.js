@@ -11,22 +11,9 @@
 
 // Your code :
 
-
 const abs = (num) => {
-
-const nbabs = -num
-return (num > 0 ? num : nbabs)
-
-
-//	if (num > 0) {
-	// 	return num
-	// }
-// else {
-
-	// 	const joker = ((num * num) / num ) 
-	// 	return joker
-	// }
-
+  const nbabs = -num
+  return (num > 0 ? num : nbabs)
 }
 
 //* Begin of tests

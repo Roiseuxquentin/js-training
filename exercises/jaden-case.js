@@ -10,26 +10,24 @@
 
 const capitalize = str => {
 
-	let str2 = str.split('')
-	const strFirst = str2.shift().toUpperCase()
-	const str3 = strFirst + str2.join('').toLowerCase()
-	return (str3)
+  let str2 = str.split('')
+  const strFirst = str2.shift().toUpperCase()
+  const str3 = strFirst + str2.join('').toLowerCase()
+  return (str3)
 
 }
 
-const jadenCase = str =>
-{
+const jadenCase = str => {
 
-	let str2 = str.split(' ')
-	let i = 0
+  let str2 = str.split(' ')
+  let i = 0
 
-	while (str2[i] != str2[str2.length])
-	{
-		str2[i] = capitalize(str2[i]) 
-		i++
-	}
+  while (str2[i] != str2[str2.length]) {
+    str2[i] = capitalize(str2[i])
+    i++
+  }
 
-	return str2.join(' ')
+  return str2.join(' ')
 }
 
 //* Begin of tests
